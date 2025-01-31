@@ -1,4 +1,4 @@
-import { Box, Button, ClientOnly, HStack, Heading, Skeleton, VStack } from '@chakra-ui/react'
+import { Box, Button, ClientOnly, Heading, Skeleton, VStack } from '@chakra-ui/react'
 import Link from 'next/link'
 import { ColorModeToggle } from '../components/ui/color-mode-toggle'
 import { FaWallet } from 'react-icons/fa'
@@ -13,7 +13,7 @@ export default async function Page() {
         </Heading>
 
         <Link href="https://discord.gg/MNQeAvQMAy" passHref target="_blank" rel="noopener noreferrer">
-          <Button colorScheme="blue">Let's go!</Button>
+          <Button colorScheme="blue">Let&apos;s go!</Button>
         </Link>
       </VStack>
 
